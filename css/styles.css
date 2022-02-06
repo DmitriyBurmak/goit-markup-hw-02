@@ -1,14 +1,31 @@
+:root {
+  --primary-text-color: ;
+}
 body {
+  color: #757575;
   background-color: #e5e5e5;
   font-family: roboto;
+}
+/* цвет названий секций #212121 */
+/* цвет текст параграфов #757575 */
+ul {
+  list-style: none;
+}
+.section-title {
+  color: #212121;
 }
 .contacts :hover,
 .contacts :focus {
   color: #ff0000;
 }
-.link {
+.contacts :active,
+.button :active {
   color: #2196f3;
 }
+.link,
 .tel {
   color: #757575;
+}
+.name-project {
+  color: #212121;
 }
