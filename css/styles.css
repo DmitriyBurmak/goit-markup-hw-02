@@ -20,12 +20,27 @@ ul {
 }
 .contacts :active,
 .button :active {
-  color: #2196f3;
+  color: #ffffff;
 }
+.button :focus {
+  background-color: #2196f3;
+}
+/* .button :hover {
+  color: #ff0000;
+} */
 .link,
 .tel {
   color: #757575;
 }
 .name-project {
   color: #212121;
+}
+.title {
+  color: #212121;
+}
+.name-project {
+  color: #212121;
+}
+.current {
+  color: #2196f3;
 }
