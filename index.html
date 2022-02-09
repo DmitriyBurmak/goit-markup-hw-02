@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="nav">
         <nav>
-            <a href=""><span>Web</span>Studio
+            <a href="" class="logo">Web<span class="logo-half">Studio</span>
             </a>
-            <ul>
-                <li><a href="./index.html" class="current">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+            <ul class="nav-menu">
+                <li><a href="./index.html" class="current nav-pages">Студия</a></li>
+                <li><a href="./portfolio.html" class="nav-pages">Портфолио</a></li>
+                <li><a href="" class="nav-pages">Контакты</a></li>
             </ul>
         </nav>
             <ul class="contacts">
@@ -24,16 +26,16 @@
             </ul>
     </header>
   <!--О нас-->
-    <main>
+    <main class="hero">
         <!--Наш бизнес-->
-        <section class="hero">
-            <h1 class="section-title">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="button">Заказать услугу</button>
+        <section class="hero-business">
+            <h1 class="hero-business-title">Эффективные решения для вашего бизнеса</h1>
+            <button type="button" class="hero-business-button">Заказать услугу</button>
         </section>
         <!-- Наши приоритеты-->
-        <section class="section">
-            <h2 class="section-title">Наши приоритеты</h2>
-            <ul class="features">
+        <section class="hero">
+            <h2 class="hero-title">Наши приоритеты</h2>
+            <ul>
                 <li>
                     <h3 class="title">Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -53,8 +55,8 @@
             </ul>
         </section>
         <!--Наши работы-->
-        <section class="section">
-            <h2 class="section-title">Чем мы занимаемся</h2>
+        <section class="hero">
+            <h2 class="hero-title">Чем мы занимаемся</h2>
             <ul>
                 <li> <img src="./img/desktop.jpg" alt="Вёрстка кода" width="300"> </li>
                 <li> <img src="./img/work-with-laptop.jpg" alt="Телефон в руках" width="300"></li>
@@ -62,8 +64,8 @@
             </ul>
         </section>
         <!--Команда-->
-        <section class="section">
-            <h2 class="section-title">Наша команда</h2>
+        <section class="hero">
+            <h2 class="hero-title">Наша команда</h2>
             <ul>
                 <li><img src="./img/Igor.jpg" alt="Фото Игоря" width="300">
                 <h3 class="title">Игорь Демьяненко</h3>
