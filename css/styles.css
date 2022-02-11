@@ -84,6 +84,7 @@ body {
 }
 
 /* Герой */
+
 .hero-title {
   font-size: 60px;
   color: var(--primary-white-color);
@@ -110,6 +111,7 @@ body {
 }
 
 /* Наши приоритеты */
+
 .title {
   font-size: 36px;
   color: var(--title-text-color);
@@ -123,7 +125,9 @@ body {
 .title-descripction {
   line-height: 1.71;
 }
+/* Наши работы */
 
+/* Наша команда */
 .team-name {
   font-size: 16px;
   color: var(--title-text-color);
