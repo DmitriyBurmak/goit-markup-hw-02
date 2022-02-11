@@ -15,6 +15,24 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.17;
 }
+/* Точки списков */
+.priorities-list,
+.examples-list,
+.team-list,
+.hero-filter,
+.portfolio-list,
+.contacts,
+.nav-list {
+  list-style: none;
+}
+/* Подчёркивание */
+.nav-logo,
+.nav-pages,
+.link,
+.tel,
+.link-list {
+  text-decoration: none;
+}
 /* Хедер */
 
 .nav-pages:hover {
@@ -135,6 +153,7 @@ body {
 }
 
 /* Портфолио */
+
 .hero-filter-button {
   font-size: 16px;
   font-weight: 500;
