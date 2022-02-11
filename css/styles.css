@@ -30,7 +30,9 @@ body {
 .nav-pages,
 .link,
 .tel,
-.link-list {
+.link-list,
+.footer-link,
+.footer-tel {
   text-decoration: none;
 }
 /* Хедер */
@@ -158,12 +160,14 @@ body {
 /* Портфолио */
 
 .hero-filter-button {
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.63;
   color: var(--title-text-color);
   background-color: var(--background-button-color);
   cursor: pointer;
+  letter-spacing: 0.03em;
 }
 .hero-filter-button:active {
   background-color: var(--accent-color);
@@ -180,6 +184,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 .name-filter {
   color: var(--primary-text-color);
